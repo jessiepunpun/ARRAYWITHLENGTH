@@ -1,0 +1,14 @@
+// ARRAY EXAMPLE FOR NAME LENGTH AND PRINT NAMES
+public static void main(String[] args) {
+   String[] cars = {"Volvo", "BMW", "Ford", "Mazda"};
+   
+        for(int ctr=0; ctr<4;ctr++)
+            
+            
+        {
+            System.out.println("Cars ["+ctr+"] = "+cars[ctr]);
+            System.out.println("Cars ["+ctr+"] = "+cars[ctr].length());
+        }
+    }
+    
+}
